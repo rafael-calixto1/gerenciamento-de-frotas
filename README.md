@@ -1,129 +1,133 @@
 # SmartFleet
 
-SmartFleet is a comprehensive fleet management system that helps organizations efficiently manage their vehicle fleets, track maintenance, and optimize operations.
+SmartFleet é um sistema abrangente de gerenciamento de frotas que ajuda as organizações a gerenciar eficientemente suas frotas de veículos, rastrear a manutenção e otimizar as operações.
 
-## 🚀 Features
+## 🚀 Funcionalidades
 
-- Real-time vehicle tracking and monitoring
-- Fleet maintenance scheduling and management
-- Driver management and performance tracking
-- Fuel consumption analytics
-- Maintenance history tracking
-- Reporting and analytics dashboard
+- Rastreamento e monitoramento de veículos em tempo real
+- Agendamento e gerenciamento de manutenção da frota
+- Gerenciamento de motoristas e rastreamento de desempenho
+- Análise de consumo de combustível
+- Rastreamento do histórico de manutenção
+- Painel de relatórios e análises
 
-## 🏗️ Project Structure
+## 🏗️ Estrutura do Projeto
 
-The project is organized into three main components:
+O projeto está organizado em três componentes principais:
 
 ```
-SmartFleet/
-├── frontend/     # React-based web application
-├── backend/      # Node.js REST API server
-└── database/     # Database migrations and schemas
+gerenciamento-de-frotas/
+├── frontend/     # Aplicação web baseada em React
+├── backend/      # Servidor de API REST Node.js
+└── database/     # Migrações e esquemas de banco de dados
 ```
 
-## 🛠️ Technology Stack
+## 🛠️ Pilha de Tecnologia
 
 ### Frontend
-- React.js with TypeScript
-- Material-UI for components
-- Redux for state management
-- Axios for API communication
+- React.js com TypeScript
+- Material-UI para componentes
+- Redux para gerenciamento de estado
+- Axios para comunicação com a API
 
 ### Backend
 - Node.js
 - Express.js
-- Jest for testing
-- JWT for authentication
+- Jest para testes
+- JWT para autenticação
 
-### Database
+### Banco de Dados
 - MySQL
-- mysql2 (Node.js MySQL client)
+- mysql2 (cliente MySQL Node.js)
 
-## 🚦 Getting Started
+## 🚦 Primeiros Passos
 
-### Prerequisites
+### Pré-requisitos
 
-- Node.js (v14 or higher)
-- npm or yarn
-- MySQL (v8.0 or higher)
+- Node.js (v14 ou superior)
+- npm ou yarn
+- MySQL (v8.0 ou superior)
 
-### Installation
+### Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
 ```bash
-git clone https://github.com/rafael-calixto1/SmartFleet.git
-cd SmartFleet
+git clone https://github.com/rafael-calixto1/gerenciamento-de-frotas.git
+cd gerenciamento-de-frotas
 ```
 
-2. Set up the backend:
+2. Configure o backend:
 ```bash
 cd backend
 npm install
 cp .env.example .env
-# Configure your .env file with appropriate values
+# Configure seu arquivo .env com os valores apropriados
 ```
 
-3. Set up the frontend:
+3. Configure o frontend:
 ```bash
 cd ../frontend
 npm install
 cp .env.example .env
-# Configure your .env file with appropriate values
+# Configure seu arquivo .env com os valores apropriados
 ```
 
-4. Set up the database:
+4. Configure o banco de dados:
 ```bash
 cd ../database
-# Follow database setup instructions in database/README.md
+# Siga as instruções de configuração do banco de dados em database/README.md
 ```
 
-### Running the Application
+## 📸 Pré-visualização
 
-1. Start the backend server:
+![Menu Dashboard Fuel Costs](frontend/public/preview/menu-dashboard-fuel-costs.png)
+![Dashboard Fuel Costs Full](frontend/public/preview/dashboard-fuel-costs-full.png)
+![Dashboard Fuel Types Maintenance](frontend/public/preview/dashboard-fuel-types-maintenance.png)
+![Dashboard Maintenance Refueling](frontend/public/preview/dashboard-maintenance-refueling.png)
+
+### Executando a Aplicação
+
+1. Inicie o servidor backend:
 ```bash
 cd backend
 npm run dev
 ```
 
-2. Start the frontend development server:
+2. Inicie o servidor de desenvolvimento frontend:
 ```bash
 cd frontend
 npm start
 ```
 
-The application will be available at `http://localhost:3000`
+A aplicação estará disponível em `http://localhost:3000`
 
-## 📚 Documentation
+## 📚 Documentação
 
-- [Frontend Documentation](./frontend/README.md)
-- [Backend Documentation](./backend/README.md)
+- [Documentação do Frontend](./frontend/README.md)
+- [Documentação do Backend](./backend/README.md)
 
-## 🧪 Testing
+## 🧪 Testes
 
-### Backend Tests
+### Testes de Backend
 ```bash
 cd backend
 npm test
 ```
 
-### Frontend Tests
+### Testes de Frontend
 ```bash
 cd frontend
 npm test
 ```
 
-## 🤝 Contributing
+## 🤝 Contribuindo
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Faça um fork do repositório
+2. Crie sua branch de funcionalidade (`git checkout -b feature/AmazingFeature`)
+3. Faça commit de suas alterações (`git commit -m 'Adicione alguma AmazingFeature'`) 
+4. Envie para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-## 📄 License
+## 📄 Licença
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.

@@ -80,10 +80,11 @@ cd ../database
 
 ## 📸 Pré-visualização
 
-![Menu Dashboard Fuel Costs](frontend/public/preview/menu-dashboard-fuel-costs.png)
-![Dashboard Fuel Costs Full](frontend/public/preview/dashboard-fuel-costs-full.png)
-![Dashboard Fuel Types Maintenance](frontend/public/preview/dashboard-fuel-types-maintenance.png)
-![Dashboard Maintenance Refueling](frontend/public/preview/dashboard-maintenance-refueling.png)
+![Menu Dashboard Fuel Costs](frontend/public/preview/menu-dashboard-fuel-costs.jpg)
+![Dashboard Fuel Costs Full](frontend/public/preview/dashboard-fuel-costs-full.jpg)
+![Dashboard Fuel Types Maintenance](frontend/public/preview/dashboard-fuel-types-maintenance.jpg)
+![Dashboard Maintenance Refueling](frontend/public/preview/dashboard-maintenance-refueling.jpg
+cd )
 
 ### Executando a Aplicação
 

@@ -22,7 +22,7 @@ gerenciamento-de-frotas/
 └── database/     # Migrações e esquemas de banco de dados
 ```
 
-## 🛠️ Pilha de Tecnologia
+## 🛠️ Stack
 
 ### Frontend
 - React.js com TypeScript

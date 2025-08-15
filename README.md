@@ -83,8 +83,7 @@ cd ../database
 ![Menu Dashboard Fuel Costs](frontend/public/preview/menu-dashboard-fuel-costs.jpg)
 ![Dashboard Fuel Costs Full](frontend/public/preview/dashboard-fuel-costs-full.jpg)
 ![Dashboard Fuel Types Maintenance](frontend/public/preview/dashboard-fuel-types-maintenance.jpg)
-![Dashboard Maintenance Refueling](frontend/public/preview/dashboard-maintenance-refueling.jpg
-cd )
+![Dashboard Maintenance Refueling](frontend/public/preview/dashboard-maintenance-refueling.jpg)
 
 ### Executando a Aplicação
 
